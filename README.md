@@ -11,5 +11,7 @@ The code is not beautifully written - don't expect my best code. It's just a qui
 
 The code is in src/main/scala/spellingbee/solver.
 
+The output from running the code (on a fairly old underpowered computer) is in src/main/resources/out.txt
+
 
 
