@@ -26,7 +26,7 @@ object Solver {
   val subsets:Iterator[Set[Char]] = letters.toSet.subsets(7)
 
   // From those, we need to consider the 7 different cases for which is the centre letter.
-  // All up, we should have (26 choose 7) * 7 possibilities. About 4.6 million.
+  // All up, we should have (25 choose 7) * 7 possibilities, given that 'S' is removed. About 3.36 million.
   val selections:Iterator[Selection] = subsets.flatMap { s =>
     for {
       centre <- s
