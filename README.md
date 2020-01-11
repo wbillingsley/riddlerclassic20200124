@@ -14,7 +14,7 @@ So,
 
 The puzzle is to find the largest number that is smaller than the value of its letters.
 
-We don't have many to try. By the time we reach 10,000, we'd need 384 letted in the name to have a value bigger than 
+We don't have many to try. By the time we reach 10,000, we'd need 384 letters in the name to have a value bigger than 
 the number, even if they were all 'Z'. It's easily amenable to an exhaustive search within a reasonable range.
 
 First, we need to translate the number into words. To keep the code short, let's recognise there's three different
